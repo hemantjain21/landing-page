@@ -7,7 +7,7 @@
 header,
 footer {
     background-color: #1F2937;
-    padding: 10px 300px;
+    padding: 10px 400px;
     color: white;
 }
 
@@ -78,7 +78,7 @@ button {
     flex-direction: column;
     align-items: center;
     margin-bottom: 80px;
-    padding: 0px 300px;
+    padding: 0px 400px;
 }
 
 .feature h2 {
@@ -115,7 +115,7 @@ button {
 
 .quote {
     background-color: #E5E7EB;
-    padding: 80px 300px;
+    padding: 80px 400px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -133,3 +133,34 @@ button {
     align-self: flex-end;
 }
 
+.cta {
+    padding: 80px 400px;
+}
+
+.cta-dialog {
+    background-color: #3882F6;
+    border-radius: 7px;
+    padding: 40px 100px; 
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-cta {
+    color: #F9FAF8;
+}
+
+.cta button {
+    padding: 6px 20px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    font-weight: bold;
+    flex-shrink: 0;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
