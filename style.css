@@ -78,6 +78,7 @@ button {
     flex-direction: column;
     align-items: center;
     margin-bottom: 80px;
+    padding: 0px 300px;
 }
 
 .feature h2 {
@@ -111,3 +112,24 @@ button {
 .card p {
     text-align: center;
 }
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 80px 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.quotation {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.author {
+    font-weight: bold;
+    align-self: flex-end;
+}
+
